@@ -37,13 +37,22 @@ cv2.dnn.blobFromImage creates 4-dimensional blob from image. Optionally resizes 
 
 ---
 
-# Installation
+# How to Use
+- Clone the repository
+```html
+git clone https://github.com/Pritam-Sethuraman/Real-Time-Object-Detection.git
+```
+
+- Create a Virtual Environment
+```html
+python -m venv Real_Time_Object_Detection
+```
 
 
----
-
-# How to use
-
+- Install the required dependancies
+```html
+pip install -y -r requirements.txt
+```
 
 ---
 
@@ -57,4 +66,5 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
 ---
