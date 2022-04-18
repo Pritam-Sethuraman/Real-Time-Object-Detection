@@ -31,13 +31,13 @@ cv2.dnn.blobFromImage creates 4-dimensional blob from image. Optionally resizes 
   
 ---
 
-# Requirements
+## Requirements
 - Python3
 - OpenCV
 
 ---
 
-# How to Use
+## How to Use
 - Clone the repository
 ```html
 git clone https://github.com/Pritam-Sethuraman/Real-Time-Object-Detection.git
@@ -55,7 +55,7 @@ pip install -y -r requirements.txt
 ```
 
 ---
-# Created & Maintained By
+## Created & Maintained By
 
 [Pritam Sethuraman](https://github.com/pritam-sethuraman)
 
@@ -66,7 +66,7 @@ pip install -y -r requirements.txt
 
 ---
 
-# License
+## License
 MIT License
 
 Copyright (c) 2022 Pritam Sethuraman
