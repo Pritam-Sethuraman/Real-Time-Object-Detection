@@ -54,6 +54,11 @@ python -m venv Real_Time_Object_Detection
 pip install -y -r requirements.txt
 ```
 
+- Run the python program
+```html
+python main.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
+```
+
 ---
 ## Created & Maintained By
 
