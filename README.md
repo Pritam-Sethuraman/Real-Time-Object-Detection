@@ -14,7 +14,7 @@ OpenCV provides two functions to facilitate image preprocessing for deep learnin
 Mean subtraction is used to help combat illumination changes in the input images in our dataset. We can therefore view mean subtraction as a technique used to aid our Convolutional Neural Networks. Before we even begin training our deep neural network, we first compute the average pixel intensity across all images in the training set for each of the Red, Green, and Blue channels. We end up with three variables: mu_R, mu_G, and mu_B (3-tuple consisting of the mean of the Red, Green, and Blue channels)
 
 For example, the mean values for the ImageNet training set are R=103.93, G=116.77, and B=123.68
-When we are ready to pass an image through our network (whether for training or testing), we subtract the mean, \mu, from each input channel of the input image:
+When we are ready to pass an image through our network (whether for training or testing), we subtract the mean, "mu", from each input channel of the input image:
 - R = R - mu_R
 - G = G - mu_G
 - B = B - mu_B
