@@ -15,14 +15,14 @@ Mean subtraction is used to help combat illumination changes in the input images
 
 For example, the mean values for the ImageNet training set are R=103.93, G=116.77, and B=123.68
 When we are ready to pass an image through our network (whether for training or testing), we subtract the mean, \mu, from each input channel of the input image:
-R = R - mu_R
-G = G - mu_G
-B = B - mu_B
+- R = R - mu_R
+- G = G - mu_G
+- B = B - mu_B
 
 We may also have a scaling factor, \sigma, which adds in a normalization:
-R = (R - mu_R) / sigma
-G = (G - mu_G) / sigma
-B = (B - mu_B) / sigma
+- R = (R - mu_R) / sigma
+- G = (G - mu_G) / sigma
+- B = (B - mu_B) / sigma
 
 The value of \sigma may be the standard deviation across the training set (thereby turning the preprocessing step into a standard score/z-score). Sigma may also be manually set (versus calculated) to scale the input image space into a particular range — it really depends on the architecture, how the network was trained
 
