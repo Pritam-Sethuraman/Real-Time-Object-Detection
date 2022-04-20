@@ -38,25 +38,30 @@ cv2.dnn.blobFromImage creates 4-dimensional blob from image. Optionally resizes 
 ---
 
 ## How to Use
-- Clone the repository
+1. Clone the repository
 ```html
-git clone https://github.com/Pritam-Sethuraman/Real-Time-Object-Detection.git
+$ git clone https://github.com/Pritam-Sethuraman/Real-Time-Object-Detection.git
 ```
 
-- Create a Virtual Environment
+2. Create a Virtual Environment
 ```html
-python -m venv Real_Time_Object_Detection
+$ python -m venv Real_Time_Object_Detection
 ```
 
-
-- Install the required dependancies
+3. Activate Virtual Environment
 ```html
-pip install -y -r requirements.txt
+$ cd Real_Time_Object_Detection
+$ Scripts\activate
 ```
 
-- Run the python program
+4. Install the required dependancies
 ```html
-python main.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
+$ pip install -y -r requirements.txt
+```
+
+5. Run the python program
+```html
+$ python main.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
 ```
 
 ---
